@@ -1,6 +1,5 @@
 const Sequelize = require("sequelize");
 const faker = require("faker");
-const { Op } = require("sequelize");
 
 // INSERT LOGIN INFO FOR DATABASE BELOW
 const sequelize = new Sequelize("#", "#", "#", {

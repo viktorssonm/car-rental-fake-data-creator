@@ -9,7 +9,7 @@ const sequelize = new Sequelize("#", "#", "#", {
     logging: false,
 });
 
-var initModels = require("./test/init-models");
+var initModels = require("./models/init-models");
 var models = initModels(sequelize);
 
 faker.setLocale("sv");
